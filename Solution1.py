@@ -1,5 +1,5 @@
 #Program to sum all numbers between 1 and a positive integer inputted by the user
-#Barry Clarke 22nd Jan 2019
+#Barry Clarke 22nd Feb 2019
 #Rev1 - Operation to include erroneous entries
 
 #Reference: https://stackoverflow.com/questions/26198131/check-if-input-is-positive-integer
