@@ -1,11 +1,14 @@
 #Program to check if today starts with a T
-#Barry Clarke 22nd Jan 2019
-#Rev0 - Basic operation 
+#Barry Clarke 24th Feb 2019
+#Rev1 - Checking if today satarts with a T by utilising the first letter in the string 
 
 import datetime
 
-#Referenced example from week 2 leactures
-if (datetime.datetime.today().weekday() == 1) or (datetime.datetime.today().weekday() == 3):
+#How to identify a specific part of the imported datetime: https://www.pythonforbeginners.com/basics/python-datetime-time-examples
+Day = datetime.date.today().strftime("%A")
+print("Today is", Day)
+
+if Day[0] == "T":
       print("Today begins with a T")
 else:
       print("Today does not begin with a T")
