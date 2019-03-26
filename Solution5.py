@@ -1,6 +1,6 @@
 # Program to check in an inputted positive integer is a prime number
 # Barry Clarke 2nd Mar 2019
-# Rev1 - Updated rev to correct a apelling error on comments section
+# Rev1 - Updated rev to correct a spelling error in comments section
 
 # Reference: https://stackoverflow.com/questions/26198131/check-if-input-is-positive-integer
 # While loop to verify that an inputted variable is a positive integer

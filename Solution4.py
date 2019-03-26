@@ -1,8 +1,8 @@
-#Program to recieve a positive integer and print all the numbers in sequence according to the Collatz conjecture
-#Barry Clarke 1st Mar 2019
-#Rev2 - Updated to have the positive integer check seperate from computation 
+# Program to recieve a positive integer and print all the numbers in sequence according to the Collatz conjecture
+# Barry Clarke 1st Mar 2019
+# Rev2 - Updated to have the positive integer check seperate from computation 
 
-#Reference: https://stackoverflow.com/questions/26198131/check-if-input-is-positive-integer
+# Reference: https://stackoverflow.com/questions/26198131/check-if-input-is-positive-integer
 # While loop to verify that an inputted variable is a positive integer
 while True:
     try:

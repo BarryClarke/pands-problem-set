@@ -1,6 +1,6 @@
-#Program to print all numbers between 1000 and 10000 that are divisible by 6 but not by 12
-#Barry Clarke 1st Mar 2019
-#Rev1 - Updated the spacing on indent from 6 spaces to 4
+# Program to print all numbers between 1000 and 10000 that are divisible by 6 but not by 12
+# Barry Clarke 1st Mar 2019
+# Rev1 - Updated the spacing on indent from 6 spaces to 4
 
 i = 1000
 
