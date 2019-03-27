@@ -1,6 +1,6 @@
 # Program that prints out the approximate square root of a floating point number
-# Barry Clarke 12th Mar 2019
-# Rev0 - Initial Revision
+# Barry Clarke 26th Mar 2019
+# Rev1 - Updated to improve the output response  
 
 
 while True:
@@ -11,6 +11,9 @@ while True:
         print("\nError: This entry is not a floating point number") 
 
 
-sqrt = f**(.5)                                                       
-print("The Square root of",f,"is approximately", format(sqrt, '.1f')) #ref https://docs.python.org/3/tutorial/floatingpoint.html for printing a number with limited decimal places
+sqrt = f**(.5)
+if f%(sqrt*sqrt) == 0:                                                      # If square root is perfect is a whole number
+    print(f"The Square root of {f} is {sqrt}")
+else:                                                                       # If square root is not a whole number and needs approximation                                                    
+    print("The Square root of",f, "is approximately", format(sqrt, '.1f'))  #ref https://docs.python.org/3/tutorial/floatingpoint.html for printing a number with limited decimal places
 
