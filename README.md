@@ -17,7 +17,11 @@ Solution6.py: A program that prints out every second word of an inputted string
 
 Solution7.py: A program that prints out the approximate square root of a floating point number
 
-Solution8.py: a program that prints out today's date and time in a specifc format
+Solution8.py: A program that prints out today's date and time in a specifc format
+
+Solution9.py: A program that reads in a User specified text file and outputs every second line of the file 
+
+Solution10.py: Program that displays a plot of the functions x, x*x and 2*x
 
 ## References
 Lectures and notes from Programming and Scripting Module  
